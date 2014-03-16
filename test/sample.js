@@ -1,5 +1,5 @@
 'use strict';
-var assert = require("assert");
+var assert = require('chai').assert;
 
 describe('Sample', function () {
     it('should test A', function () {
