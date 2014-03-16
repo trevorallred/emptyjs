@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.4"
+    "grunt": "~0.4.4",
+    "chai": "~1.9.0",
+    "mocha": "~1.18.0",
+    "grunt-mocha-test": "~0.10.0"
   }
 }
