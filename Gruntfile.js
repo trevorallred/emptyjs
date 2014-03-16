@@ -4,17 +4,6 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        karma: {
-            unit: {
-                options: {
-                    frameworks: ['mocha'],
-                    autoWatch: true,
-                    browsers: ['PhantomJS'],
-                    singleRun: false,
-                    files: ['test/**/*.js']
-                }
-            }
-        },
         mochaTest: {
             test: {
                 options: {
