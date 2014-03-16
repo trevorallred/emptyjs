@@ -1,9 +1,14 @@
 'use strict';
-var assert = require('chai').assert;
+var chai = require('chai'),
+    assert = chai.assert;
+
+chai.Should();
 
 describe('Sample', function () {
-    it('should test A', function () {
+    it('assert A', function () {
         assert.equal('A', 'A');
-        console.info('asdf');
+    });
+    it('should equal A', function () {
+        'B'.should.equal('B');
     });
 });
